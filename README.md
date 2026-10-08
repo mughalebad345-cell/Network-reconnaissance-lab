@@ -60,16 +60,4 @@ This confirmed that a Python HTTP service was actively running on port `8080`.
 
 ![Nmap Service Version Detection](screenshots/05-nmap-service-version-detection.png)
 
-## Wireshark Nmap Traffic Capture
 
-Wireshark was used on Kali Linux to capture traffic generated during the Nmap scan.
-
-The display filter used was:
-
-`tcp.port == 8080`
-
-The capture showed TCP communication between Kali Linux and the Windows lab machine, including SYN, SYN-ACK, ACK, and HTTP traffic.
-
-This confirmed that the Nmap scan generated real network traffic on TCP port `8080`.
-
-![Wireshark Nmap Traffic](screenshots/06-wireshark-nmap-port-8080-traffic.png)
