@@ -74,3 +74,17 @@ The analysis confirmed:
 - HTTP traffic was visible in Wireshark
 
 ![Nmap and Wireshark Analysis](screenshots/06-nmap-wireshark-analysis.png)
+
+## Documentation
+
+Detailed project documentation:
+
+[View Network Reconnaissance Lab Documentation](docs/network-reconnaissance-lab-documentation.md)
+
+Commands used in this lab:
+
+[View Network Reconnaissance Commands](configs/network-reconnaissance-commands.txt)
+
+## Project Status
+
+✅ Completed
