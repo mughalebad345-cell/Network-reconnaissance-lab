@@ -60,4 +60,17 @@ This confirmed that a Python HTTP service was actively running on port `8080`.
 
 ![Nmap Service Version Detection](screenshots/05-nmap-service-version-detection.png)
 
+## Nmap and Wireshark Traffic Analysis
 
+Nmap was used to scan TCP port `8080` and identify the running service.
+
+Wireshark was then used on Kali Linux to capture the traffic generated during the scan.
+
+The analysis confirmed:
+
+- TCP port `8080` was open
+- A Python HTTP service was running
+- TCP handshake packets were captured
+- HTTP traffic was visible in Wireshark
+
+![Nmap and Wireshark Analysis](screenshots/06-nmap-wireshark-analysis.png)
