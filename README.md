@@ -43,3 +43,19 @@ Nmap reported:
 This confirmed that port `8080` was reachable and a service was actively listening.
 
 ![Kali Nmap Port 8080 Open](screenshots/04-kali-nmap-port-8080-open.png)
+
+## Nmap Service Version Detection
+
+Nmap service detection was performed against TCP port `8080`.
+
+The command used was:
+
+`nmap -sV -p 8080 192.168.100.66`
+
+Nmap identified the service as:
+
+`SimpleHTTPServer 0.6 (Python 3.14.8)`
+
+This confirmed that a Python HTTP service was actively running on port `8080`.
+
+![Nmap Service Version Detection](screenshots/05-nmap-service-version-detection.png)
