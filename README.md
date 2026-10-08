@@ -1,3 +1,7 @@
+Network-reconnaissance-lab
+A hands-on network reconnaissance lab using Nmap, Kali Linux, and Wireshark for host discovery, port scanning, service identification, and traffic analysis.
+
+
 ## Nmap Host Discovery
 
 Kali Linux was connected to the local lab network with the IP address `192.168.100.108`.
