@@ -1,0 +1,28 @@
+NETWORK RECONNAISSANCE & TRAFFIC ANALYSIS LAB COMMANDS
+
+1. Check Kali IP address and interface
+ip addr
+
+2. Discover active hosts on the local network
+nmap -sn 192.168.100.0/24
+
+3. Basic port scan against Windows lab machine
+nmap 192.168.100.66
+
+4. Start temporary HTTP server on Windows Laptop 1
+python -m http.server 8080
+
+5. Verify port 8080 is listening on Windows
+Get-NetTCPConnection -LocalPort 8080
+
+6. Scan only TCP port 8080 from Kali
+nmap -p 8080 192.168.100.66
+
+7. Detect service and version on port 8080
+nmap -sV -p 8080 192.168.100.66
+
+8. Start Wireshark on Kali
+sudo wireshark
+
+9. Wireshark display filter
+tcp.port == 8080
